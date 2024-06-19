@@ -3,13 +3,13 @@
 set -e
 
 # Ros build
-source "/opt/ros/melodic/setup.bash"
+source "/opt/ros/noetic/setup.bash"
 
 
 # Libray install if you want
 
 echo "================Docker Env Ready================"
 
-cd /home/catkin_ws
+cd /home/akshay/catkin_ws
 
 exec "$@"

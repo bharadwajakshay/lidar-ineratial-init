@@ -1,6 +1,6 @@
 common:
     lid_topic:  "/hesai/pandar"
-    imu_topic:  "/mavros/imu/data_raw"
+    imu_topic:  "/imu/data"
 
 preprocess:
     lidar_type: 5                # Hesai PandarXT
